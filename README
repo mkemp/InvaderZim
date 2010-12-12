@@ -1,0 +1,39 @@
+This is a somewhat cleaned up version of my final
+submission to the Google AI Planet Wars Challenge [1]
+InvaderZim v20.
+
+Matt Kemp [2]
+
+* Project Structure
+
+The source code is divided between the submitted code
+in src/main/java and unit tests in src/test/java. Due
+to the limitations of the java submissions the only
+code that this project depends on is JUnit [3].
+For similar reasons there is no package heirarchy,
+all classes are in the default package.
+
+Logically each class falls into one of three areas:
+strategy (actual bot code), framework (game, fleets,
+planets, universe) and utility (chain, filter,
+functions, iterators, mapper, predicates, reduce).
+The final submission (with copyright notices and
+some comments) weighed in at just over 4500 LOC.
+Interestingly enough the strategy portion made up
+only 25%, the framework and utility portions weighed
+in at 35% and 40% respectively.
+
+* Source Code
+
+Available on GitHub [4].
+
+* Links
+
+[1] http://ai-contest.com/rankings.php
+
+[2] mattkemp@gmail.com
+
+[3] http://www.junit.org
+
+[4] git: git://github.com/mkemp/InvaderZim.git
+
